@@ -1,4 +1,5 @@
 const express = require('express')
+// getting routes for products
 const { getProducts , setOrders , getOrders } = require('../handler/requestHandler')
 // getting user routes handler
 const { loginUser , signupUser } = require('../handler/userHandler')
