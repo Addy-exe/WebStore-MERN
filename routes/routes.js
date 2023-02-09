@@ -5,7 +5,6 @@ const { getProducts , setOrders , getOrders } = require('../handler/requestHandl
 const { loginUser , signupUser } = require('../handler/userHandler')
 const requireAuth = require('../middleware/requireAuth')
 
-
 // creating instance of router
 const routes = express.Router()
 
